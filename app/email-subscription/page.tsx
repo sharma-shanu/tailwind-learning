@@ -26,10 +26,10 @@ const EmailSubscription = () => {
                 Eat better and exercise better. Sign up for the Diet&Fitness
                 newsletter.
               </div>
-              <div className="flex flex-col md:flex-row space-y-4 md:space-x-2 ">
+              <div className="flex flex-col md:flex-row space-y-4 md:space-x-2 md:space-y-0">
                 <input
                   type="email"
-                  className="bg-zinc-800 text-sm border border-zinc-600 px-4 py-3 text-white placeholder:text-xs placeholder:text-center focus:outline-none"
+                  className="bg-zinc-800 text-sm border border-zinc-600 px-4 py-3 text-white placeholder:text-xs placeholder:text-center focus:outline-none md:py-0"
                   placeholder="Enter your email address"
                 />
 
@@ -47,4 +47,4 @@ const EmailSubscription = () => {
 
 export default EmailSubscription;
 
-// TODO: Make the container in such a way
+// TODO: Image does not fill the container for small screens look at that issue.
